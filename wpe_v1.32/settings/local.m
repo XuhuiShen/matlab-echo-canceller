@@ -14,12 +14,12 @@
 
 fs    = 16000;     %% Sampling frequency
 
-num_mic = 8;       %% Number of channels
+num_mic = 4;       %% Number of channels
 
 num_out = num_mic; %% Number of outputs (should be <= microphones).
 		   %% set to 1 if output a single channel 
 
-blk_len = 100;      %% Block length (in sec). Set to a large value for
+blk_len = 90;      %% Block length (in sec). Set to a large value for
                    %% utterance-batch processing
 		   
 opt_blk_sz = 1;    %% Optimize the block size for block batch processing
